@@ -1,0 +1,18 @@
+<div class="dialog">
+  <div class="box">
+    <h3>{{eventData?'Edit Event':'Add Event'}}</h3>
+    <form [formGroup]="form">
+      <label>Title</label>
+      <input formControlName="title" />
+      <label>Color</label>
+      <select formControlName="color">
+        <option *ngFor="let color of colors" [ngValue]="color">{{color}}</option>
+      </select>
+    </form>
+    <div class="actions">
+      <button (click)="save()">Save</button>
+      <button (click)="close.emit()">Cancel</button>
+      <button *ngIf="eventData" (click)="delete()">Delete</button>
+    </div>
+  </div>
+</div>

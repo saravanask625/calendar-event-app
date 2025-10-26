@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const formatIso = d => d.toISOString().slice(0, 10);\nexport const daysInMonth = (year, monthIndex) => new Date(year, monthIndex + 1, 0).getDate();\nexport const firstDayOfMonth = (year, monthIndex) => new Date(year, monthIndex, 1).getDay();","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
