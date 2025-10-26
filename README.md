@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calendar App (Angular 17) - Minimal
 
 This is a minimal Angular 17 calendar application with:
@@ -22,3 +23,6 @@ This is a minimal Angular 17 calendar application with:
 ## Notes
 - This project is intentionally minimal for interview/demo purposes.
 - Uses localStorage for persistence; easy to replace with HTTP calls.
+=======
+# calendar-event-app
+>>>>>>> dfb0b8bafeb5f322821d3e434616dc1a73d44959
